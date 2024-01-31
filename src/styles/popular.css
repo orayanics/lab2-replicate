@@ -1,0 +1,47 @@
+.play-img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+}
+
+.dots {
+  width: 25px;
+  height: 25px;
+  background: url("../assets/dots.svg") no-repeat center center;
+  background-size: contain;
+}
+button {
+  font-weight: 700;
+  color: #fff;
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.btn-follow {
+  border: 2px solid #868686;
+  border-width: 2px;
+  padding: 1%;
+  border-radius: 25px;
+}
+
+.btn-follow:hover {
+  transform: scale(1.05);
+  border: 2px solid #fff;
+}
+
+.song-body h2 {
+  color: #fff;
+  font-weight: 700;
+  margin: 1em 0;
+}
+
+.play-img:hover {
+  transform: scale(1.1);
+}
