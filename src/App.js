@@ -9,11 +9,14 @@ function App() {
   return (
     <>
       <Header
+      isVerified={false}
         artist={"Hev Abi"}
         listeners={3123142}
         img={"https://i.scdn.co/image/ab676161000051748d5a1ee02dfbda8671226e68"}
       />
-      <Popular />
+      <Popular 
+      isFollowing={false}
+      />
     </>
   );
 }

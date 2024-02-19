@@ -9,10 +9,12 @@ export default function Header(props) {
         <img className="artist-img" src={imgUrl} alt="Hev Abi" />
 
         <div>
-          <div className="flex-container row verified">
-            <img className="verified-img" src={Verified} alt="Verified" />
-            <p>Verified Artist</p>
-          </div>
+          {props.isVerified ? (
+            <div className="flex-container row verified">
+              <img className="verified-img" src={Verified} alt="Verified" />
+              <p>Verified Artist</p>
+            </div>
+          ) : null}
 
           <div className="flex-container column artist">
             <h1>{props.artist}</h1>
