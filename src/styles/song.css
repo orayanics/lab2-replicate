@@ -69,3 +69,12 @@
 .span {
     color: #fff;
 }
+
+.most-played {
+    color: #fff;
+    font-size: 1em;
+    margin: 1em 0;
+    background-color: #1DB954;
+    padding: 10px;
+    border-radius: 15px;
+}
